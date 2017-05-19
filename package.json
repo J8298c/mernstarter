@@ -1,0 +1,19 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "nodeapi",
+  "main": "index.js",
+  "author": "Julio Mojica",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
