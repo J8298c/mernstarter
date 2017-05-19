@@ -13,9 +13,13 @@ app.use(function(req, res, next) {
   next();
 });
 
+const workout = {
+  name: 'Superman',
+  key: 'someotherkey'
+}
 
 app.get('/', (req, res)=>{
-    res.send('Hello world from node api');
+    res.json(workout)
 })
 
 
